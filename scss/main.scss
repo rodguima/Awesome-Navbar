@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+@import 'hero';
+@import 'header';
+@import 'media';
+@import 'animations';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+}
+
+.container {
+    width: 50%;
+    margin: 2rem auto;
+
+    p {
+        margin: 1 rem 0;
+        color: #fff;
+    }
+}
+
+.demo-content {
+  width: 100%;
+  height: 100vh;
+}
