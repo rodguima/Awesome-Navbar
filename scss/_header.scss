@@ -105,6 +105,10 @@
         background: rgba(255,255,255, 0.9);
         color: #000;
 
+        &::before {
+          border-bottom: initial;
+        }
+
         .menu-icon {
             &__line,
             &__line::before,
@@ -112,5 +116,14 @@
                 background: #000;
             }
         }   
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      height: 65px;
+      width: 68.8vw;
+      border-bottom: 1px solid rgba(255,255,255, 0.1);
+      z-index: -1;
     }
 }
